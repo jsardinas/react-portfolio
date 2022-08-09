@@ -1,6 +1,6 @@
 .navbar {
-  background: #6a1b9a;
-  height: 60px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .navbar a {
@@ -9,4 +9,18 @@
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+}
+
+.navbar li a:hover {
+  color: #3e92cc;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
