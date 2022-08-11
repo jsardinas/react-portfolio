@@ -3,11 +3,11 @@ import Navigation from './Navigation';
 import styles from '../styles/Header.css';
 
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
   return (
     <header className="header" style={styles.header}>
       <h1>Javier Sardi&#241;as</h1>
-      <Navigation />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
   );
 }
