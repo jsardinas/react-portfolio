@@ -1,11 +1,15 @@
 import React from 'react';
-import styles from '../styles/Portfolio.css';
+import Project from './Project';
+
+// import resources
+import projects from '../data/projects'
 
 
 function Portfolio() {
   return (
-    <div className="header" style={styles}>
-      <h1>Portfolio</h1>
+    <div class="row">
+      {projects.map(p => <Project repoLink={p.repoLink} deploymentLink={p.deploymentLink} thumbnail={p.imgsrc}/>)}
+      
     </div>
   );
 }
