@@ -7,7 +7,6 @@ function Footer() {
         <ul>
             <li>📱(352) 484-2035</li>
             <li>📧 <a href="mailto:javier.sardinas@gmail.com">javier.sardinas@gmail.com</a></li>
-            <li><i class="fa-regular fa-file"></i><a href="docs//resume.pdf" download=""> resume</a></li>
             <li><img src={require("../img/githubappicon.jpg")} height="16px" width="16px"/> <a href="https://github.com/jsardinas" target="_blank">jsardinas</a></li>
             <li><img src={require("../img/in.png")} height="16px" width="16px" alt="LinkedIn"/> <a href="https://www.linkedin.com/in/javier-sardi%C3%B1as-41b1a465/" target="_blank">Javier Sardi&#241;as</a></li>
         </ul>
