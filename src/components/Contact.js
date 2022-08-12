@@ -49,7 +49,7 @@ function Contact() {
 
   return (
     <div className='row'>
-      <div className='col-lg-6 col-md-6 col-sm-12'>
+      <div className='col-lg-6 col-md-9 col-sm-12 col-12'>
         <form className="form">
         <label for='userName'>Name</label>
         <input
