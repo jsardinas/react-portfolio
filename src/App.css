@@ -10,3 +10,8 @@ body{
   background-color: #0A2463;
   color: #fffaff
 }
+
+.container-fluid {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

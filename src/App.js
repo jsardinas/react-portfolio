@@ -13,15 +13,15 @@ function App() {
 
   const renderPage = () => {
     if (currentPage === 'Contact') {
-      return <Contact />;
+      return <div className='container-fluid'><Contact /></div>;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <div className='container-fluid'><Portfolio /></div>;
     }
     if (currentPage === 'Resume') {
-      return <Resume />;
+      return <div className='container-fluid'><Resume /></div>;
     }
-    return <About />;
+    return <div className='container-fluid'><About /></div>;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
