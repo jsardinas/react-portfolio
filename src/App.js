@@ -5,6 +5,7 @@ import About from './components/About'
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
     <div className="App">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
