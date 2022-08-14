@@ -1,0 +1,35 @@
+.work-tile{
+    flex: w 0 50%;
+    /*opacity: 80%;  */
+    position: relative; 
+    padding: 40px;
+}
+
+.work-tile img:hover{
+    opacity: 15%;
+}
+
+.work-tile:hover > .ghost{
+    display: block;
+    opacity: 100%;
+}
+
+.work-tile img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    min-width: 260;
+    border: 5px solid #3e92cc;
+}
+
+.ghost{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    display: none;
+    opacity: 80%;
+}
+
+.ghost img:hover {
+    opacity: 100%;
+}
