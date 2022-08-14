@@ -19,3 +19,8 @@
   resize: vertical;
   color: black;
 }
+
+.errorDiv{
+  margin-left: 20px;
+  font-weight: bold;
+}

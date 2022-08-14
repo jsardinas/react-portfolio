@@ -31,7 +31,7 @@ function Contact() {
 
   const errorMessages = {
     [INPUT_NAME] : 'Please tell me your name',
-    [INPUT_MAIL] : 'email seems to be invalid',
+    [INPUT_MAIL] : 'Email address seems to be invalid',
     [INPUT_MSSG] : 'Please write something'
   };
 
@@ -111,7 +111,7 @@ function Contact() {
           <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
         </form>
         {errorMessage && (
-          <div>
+          <div className='errorDiv'>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
