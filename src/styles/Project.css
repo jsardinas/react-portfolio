@@ -1,16 +1,11 @@
 .work-tile{
     flex: w 0 50%;
-    /*opacity: 80%;  */
+    opacity: 70%;
     position: relative; 
     padding: 40px;
 }
 
-.work-tile img:hover{
-    opacity: 15%;
-}
-
-.work-tile:hover > .ghost{
-    display: block;
+.work-tile:hover{
     opacity: 100%;
 }
 
@@ -22,14 +17,29 @@
     border: 5px solid #3e92cc;
 }
 
-.ghost{
+.tooltip{
     position: absolute;
     top: 90px;
-    left: 120px;
-    display: none;
-    opacity: 80%;
+    left: 45px;
+    /* display: none; */
+    opacity: 70%;
+    background-color: #3e92cc;
+    padding: 0 30px;
+    /* mix-blend-mode: hard-light; */
 }
 
-.ghost img:hover {
+.tooltip img:hover {
+    opacity: 100%;
+}
+
+.tooltip h3{
+    font-weight: bold;
+}
+
+.tooltip h3 img{
+    opacity: 60%;
+}
+
+.tooltip h3 img:hover{
     opacity: 100%;
 }

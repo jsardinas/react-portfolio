@@ -15,14 +15,14 @@ const exports = [
         repoLink: 'https://github.com/cblake506/terminal-one',
         deploymentLink:'https://notedepot.herokuapp.com/',
         imgsrc: noteDepot,
-        stack: 'Express'
+        stack: 'MERN'
     },
     {
         name: 'Tech blog',
         repoLink: 'https://github.com/jsardinas/techblog',
         deploymentLink:'https://jsardinas-tech-blog.herokuapp.com/',
         imgsrc: tech,
-        stack: 'Express'
+        stack: 'MERN'
     },
     {
         name: 'KnowB4uGo',
