@@ -1,0 +1,12 @@
+.resume{
+    font-weight: bold;
+    line-height: 2;
+}
+
+a{
+    color:#aaa;
+}
+
+a:hover{
+    color: white;
+}

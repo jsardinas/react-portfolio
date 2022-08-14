@@ -1,5 +1,6 @@
 .form {
     margin: 20px;
+    font-weight: bold;
 }
 
 .form input {
@@ -22,5 +23,9 @@
 
 .errorDiv{
   margin-left: 20px;
+  font-weight: bold;
+}
+
+.form button{
   font-weight: bold;
 }

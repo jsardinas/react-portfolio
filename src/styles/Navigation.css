@@ -4,11 +4,12 @@
 }
 
 .navbar a {
-  color: white;
+  color: #FFFAFF;
   font-size: 1.3rem;
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+  font-weight: bold;
 }
 
 .navbar li a:hover {
