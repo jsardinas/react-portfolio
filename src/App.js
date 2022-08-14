@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState('Resume');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'Contact') {

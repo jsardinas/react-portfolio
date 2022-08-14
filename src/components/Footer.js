@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from '../styles/Footer.css';
+import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <footer className="container-fluid bg-4 text-center horizontal-footer">
+    <footer className="bg-4 text-center horizontal-footer">
         <ul>
             <li>📱(352) 484-2035</li>
             <li>📧 <a href="mailto:javier.sardinas@gmail.com">javier.sardinas@gmail.com</a></li>
