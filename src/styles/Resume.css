@@ -3,10 +3,10 @@
     line-height: 2;
 }
 
-a{
+.download{
     color:#aaa;
 }
 
-a:hover{
+.download:hover{
     color: white;
 }

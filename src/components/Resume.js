@@ -5,7 +5,7 @@ function Resume() {
   return (
     <div className='resume'>
       <h1>Resume</h1>
-      <a href="docs/resume.pdf" download="resume.pdf"> Download</a>
+      <a className='download' href="docs/resume.pdf" download="resume.pdf"> Download</a>
 
       <h3>Skills</h3>
       <ul>

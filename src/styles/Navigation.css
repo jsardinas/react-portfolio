@@ -4,7 +4,7 @@
 }
 
 .navbar a {
-  color: #FFFAFF;
+  /* color: #FFFAFF; */
   font-size: 1.3rem;
   text-decoration: none;
   margin: 5px;
@@ -28,9 +28,11 @@
 }
 
 .active{
-  background-color: #1E1B18;;
+  background-color: #eee;
+  color: #3e92cc;
 }
 
 .inactive{
   background-color: #3E5589;
+  color: #FFFAFF;
 }
